@@ -1,0 +1,62 @@
+baseURL = 'https://gmelikov.com/'
+locale = 'en-us'
+title = "G.Melikov's blog"
+theme = 'PaperMod'
+
+[permalinks]
+posts = '/:year/:month/:day/:slug/'
+
+[pagination]
+pagerSize = 10
+
+[params]
+defaultTheme = 'auto'
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+
+[params.homeInfoParams]
+Title = "G.Melikov's blog"
+Content = "Technical notes and how-to guides"
+
+[[params.socialIcons]]
+name = 'github'
+title = 'GitHub'
+url = 'https://github.com/gmelikov'
+
+[params.editPost]
+URL = 'https://github.com/gmelikov/gmelikov.com/tree/main/content/'
+Text = 'Suggest Changes'
+appendFilePath = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+style = 'dracula'
+lineNos = false
+noClasses = false
+
+[outputs]
+home = ['HTML', 'RSS']
+
+[menu]
+[[menu.main]]
+identifier = 'posts'
+name = 'Posts'
+url = '/posts/'
+weight = 10
+[[menu.main]]
+identifier = 'categories'
+name = 'Categories'
+url = '/categories/'
+weight = 20
+[[menu.main]]
+identifier = 'tags'
+name = 'Tags'
+url = '/tags/'
+weight = 30
