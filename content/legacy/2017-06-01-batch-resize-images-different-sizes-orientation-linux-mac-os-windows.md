@@ -3,11 +3,13 @@ title: "Batch resize images with different sizes for each orientation in Linux, 
 date: 2017-06-01
 draft: false
 categories:
-  - how-to
+  - legacy
 tags:
   - linux
   - how-to
 slug: batch-resize-images-different-sizes-orientation-linux-mac-os-windows
+build:
+  list: false
 ---
 
 You need imagemagick for this. In Debian/Ubuntu just run this command as superuser:

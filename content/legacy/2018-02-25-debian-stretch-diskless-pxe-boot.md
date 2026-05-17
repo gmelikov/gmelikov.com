@@ -3,11 +3,13 @@ title: "Debian Stretch diskless machine via PXE boot"
 date: 2018-02-25
 draft: false
 categories:
-  - how-to
+  - legacy
 tags:
   - linux
   - how-to
 slug: debian-stretch-diskless-pxe-boot
+build:
+  list: false
 ---
 
 Inspired by [this article](https://www.linuxquestions.org/questions/blog/isaackuo-112178/diskless-pxe-netboot-how-to-for-debian-8-jessie-37169/). Sometimes I use barebone machines to test or run something, and I already have a server machine, so it's better to use diskless PXE boot. Enjoy!

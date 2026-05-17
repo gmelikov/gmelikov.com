@@ -5,6 +5,7 @@ theme = 'PaperMod'
 
 [permalinks]
 posts = '/:year/:month/:day/:slug/'
+legacy = '/:year/:month/:day/:slug/'
 
 [pagination]
 pagerSize = 10

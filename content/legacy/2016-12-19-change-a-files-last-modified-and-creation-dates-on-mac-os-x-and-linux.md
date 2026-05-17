@@ -3,11 +3,13 @@ title: "Change a File's Last Modified and Creation Dates on Mac OS X and Linux"
 date: 2016-12-19
 draft: false
 categories:
-  - how-to
+  - legacy
 tags:
   - linux
   - how-to
 slug: change-a-files-last-modified-and-creation-dates-on-mac-os-x-and-linux
+build:
+  list: false
 ---
 
 ### Date Format Key

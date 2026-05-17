@@ -3,11 +3,13 @@ title: "Add audio file to mkv"
 date: 2017-06-03
 draft: false
 categories:
-  - how-to
+  - legacy
 tags:
   - linux
   - how-to
 slug: add-audio-file-mkv
+build:
+  list: false
 ---
 
 First you need to install mkvtoolnix

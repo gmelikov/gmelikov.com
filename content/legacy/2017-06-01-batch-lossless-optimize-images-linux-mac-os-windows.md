@@ -3,11 +3,13 @@ title: "Batch lossless optimize images in Linux, Mac OS and Windows"
 date: 2017-06-01
 draft: false
 categories:
-  - how-to
+  - legacy
 tags:
   - linux
   - how-to
 slug: batch-lossless-optimize-images-linux-mac-os-windows
+build:
+  list: false
 ---
 
 ### Linux and Mac

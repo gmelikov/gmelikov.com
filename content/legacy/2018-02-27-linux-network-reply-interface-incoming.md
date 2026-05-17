@@ -3,11 +3,13 @@ title: "Linux network: reply on same interface as incoming"
 date: 2018-02-27
 draft: false
 categories:
-  - how-to
+  - legacy
 tags:
   - linux
   - how-to
 slug: linux-network-reply-interface-incoming
+build:
+  list: false
 ---
 
 Long story short: local corporate server have 2 interfaces:
