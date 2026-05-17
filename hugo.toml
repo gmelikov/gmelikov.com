@@ -61,3 +61,7 @@ identifier = 'tags'
 name = 'Tags'
 url = '/tags/'
 weight = 30
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
